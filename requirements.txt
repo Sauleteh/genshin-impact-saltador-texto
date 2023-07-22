@@ -1,0 +1,5 @@
+numpy==1.23.5
+opencv_python==4.6.0.66
+PyAutoGUI==0.9.53
+pywin32==305
+vgamepad==0.0.8
