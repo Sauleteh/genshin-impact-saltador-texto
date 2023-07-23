@@ -19,7 +19,11 @@ Recuerda que antes tienes que tener la consola en la ruta donde está este progr
 5. El programa aunque esté en ejecución continua está optimizado para bajar su velocidad de análisis drásticamente si no estás en el juego o si no estás interactuando con texto. Cuando detecte un texto aumentará mucho su velocidad para que la velocidad de saltar texto sea la más rápida que permita el juego, por tanto no hay que preocuparse por el uso de CPU, el programa se adaptará al momento
 6. La versión de Python utilizada es la 3.9.7, desconozco si funciona en otras versiones del mismo
 
+# Preguntas interesantes
 ## ¿Seré baneado del Genshin Impact por usar este programa?
 Aunque Genshin Impact especifica que está prohibido el uso de programas externos, no te va a pasar nada porque este programa no inyecta código ni modifica archivos del juego. El programa analiza lo que tienes en pantalla en ese momento para realizar las acciones pertinentes por lo que es indetectable a ojos del juego y de la empresa.
 
 Sobre si es moral o no el uso del programa, me parece que si la empresa hubiera decidido hacer un botón de *saltar todo* no hubiera sido necesario hacer este programa, cada uno es libre de jugar como quiera pero si el juego no nos da las herramientas necesarias para jugar de forma cómoda, no creo que sea inmoral saltarse las reglas para este caso.
+
+## Si lo único que hace el programa es analizar lo que tengo en pantalla, ¿para qué detecta el PID del juego?
+Solo utiliza su ID para hacer saber al usuario que el programa ha detectado el juego ejecutándose correctamente. Si algún día Genshin Impact cambia el nombre del ejecutable, es importante que el programa te advierta al respecto y deje de funcionar hasta que actualice el programa. Si no tuviera esta detección, el programa seguiría analizando tu pantalla incluso si estás fuera del Genshin Impact y no estaría bien que mientras estés en YouTube, el programa esté pulsando sobre videos aleatorios.
